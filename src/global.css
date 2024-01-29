@@ -11,6 +11,25 @@ body {
     overflow-x: hidden;
 }
 
+input {
+    width: 100%;
+    display: inline-block;
+    padding: 7px;
+    font-size: 1.2rem;
+    border: 1px solid #cccccc;
+    color: #3d3d3d;
+}
+
+select {
+    width: 100%;
+    display: inline-block;
+    padding: 7px;
+    font-size: 1.2rem;
+    border: 1px solid #cccccc;
+    color: #3d3d3d;
+    background: #fff;
+}
+
 .btn {
     border: none;
     cursor: pointer;
@@ -44,6 +63,22 @@ body {
     background: #ececec;
 }
 
+.btn-checkout {
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: none;
+    background: #e84f3d;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-checkout:hover {
+    background: #d24434;
+}
+
 .icon {
     width: 15px;
     margin-right: 5px;
@@ -72,8 +107,39 @@ body {
     text-align: center;
 }
 
+.col-3 {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.input-group {
+    margin: 0 30px 0 0;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    border-bottom: 1px solid #cccccc;
+    padding: 15px;
+}
+
+.text-red {
+    color: #cd3e2e;
+}
+
+.text-light {
+    color: #747474;
+}
+
 @media (max-width: 1100px) {
     .sub-titulo {
         max-width: 95%;
+    }
+
+    .col-3 {
+        width: 100%;
     }
 }

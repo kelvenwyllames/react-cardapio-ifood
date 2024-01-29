@@ -4,7 +4,7 @@ import ProdutoVitrine from "../../components/produto-vitrine/produto-vitrine";
 function Home() {
     return (
         <>
-            <Navbar />
+            <Navbar showMenu={true} />
             <div className="container-cardapio">
                 <div className="titulo">
                     <h1>Nosso cardápio</h1>
