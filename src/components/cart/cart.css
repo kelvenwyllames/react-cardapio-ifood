@@ -3,7 +3,7 @@
 }
 
 .lista-produtos {
-    height: calc(100% - 250px);
+    height: calc(100% - 195px);
     margin: 0 20px 0 20px;
     overflow: auto;
 }
@@ -13,7 +13,7 @@
 }
 
 .footer-cart-valor {
-    margin: 20px 0 84.5px 0;
+    margin: 25px 25px 25px 5px;
     display: flex;
     justify-content: space-between;
 }
